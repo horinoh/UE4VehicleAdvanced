@@ -14,7 +14,6 @@ class UE4VEHICLE_API UVehicleWheelFront : public UVehicleWheel
 {
 	GENERATED_BODY()
 	
-	
-	
-	
+public:
+	UVehicleWheelFront();
 };

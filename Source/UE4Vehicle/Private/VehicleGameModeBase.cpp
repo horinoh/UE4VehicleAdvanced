@@ -2,6 +2,9 @@
 
 #include "VehicleGameModeBase.h"
 
+#include "VehiclePawn.h"
 
-
-
+AVehicleGameModeBase::AVehicleGameModeBase()
+{
+	DefaultPawnClass = AVehiclePawn::StaticClass();
+}

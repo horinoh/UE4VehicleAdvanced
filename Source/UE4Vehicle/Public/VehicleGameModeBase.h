@@ -14,7 +14,6 @@ class UE4VEHICLE_API AVehicleGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
-	
-	
-	
+public:
+	AVehicleGameModeBase();
 };
