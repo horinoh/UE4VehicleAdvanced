@@ -23,6 +23,9 @@ public:
 	AVehiclePawn();
 
 protected:
+	//!< AActor
+	virtual void BeginPlay() override;
+	virtual void Tick(float DeltaSeconds) override;
 
 	//!< APawn
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
@@ -31,6 +34,18 @@ protected:
 	void MoveRight(float Value);
 	void OnHandbrakePressed();
 	void OnHandbrakeReleased();
+	void OnSwitchCamera();
+	void OnTargetGear(const int32 GearNum);
+	void OnGear1() { OnTargetGear(1); }
+	void OnGear2() { OnTargetGear(2); }
+	void OnGear3() { OnTargetGear(3); }
+	void OnGear4() { OnTargetGear(4); }
+	void OnGear5() { OnTargetGear(5); }
+	void OnGear6() { OnTargetGear(6); }
+	void OnGear7() { OnTargetGear(7); }
+	void OnGearR() { OnTargetGear(-1); }
+	void OnGearUp();
+	void OnGearDown();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	USpringArmComponent* SpringArmComp = nullptr;

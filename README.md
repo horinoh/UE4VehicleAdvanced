@@ -5,14 +5,17 @@
 PublicDependencyModuleNames.AddRange(new string[] { ..., "PhysXVehicles" });
 ~~~
 
-* テレメトリを表示するには
+* テレメトリを表示するには Show telemetry
 ~~~
 showdebug vehicle
 ~~~
 
-## [ポーン](https://github.com/horinoh/UE4Vehicle/tree/master/Document/Pawn)
-## [ホイール](https://github.com/horinoh/UE4Vehicle/tree/master/Document/Wheel)
+## [インプット Input](https://github.com/horinoh/UE4Vehicle/tree/master/Document/Input)
+## [ホイール Wheel](https://github.com/horinoh/UE4Vehicle/tree/master/Document/Wheel)
+## [アニメーション Animation](https://github.com/horinoh/UE4Vehicle/tree/master/Document/Animation)
+## [ポーン Pawn](https://github.com/horinoh/UE4Vehicle/tree/master/Document/Pawn)
 
-<--!
-* UVehicleAnimInstance が既に存在するので作成する必要はなさそう
+<!--
+TODO
+## [ハンコン Steering Wheel](https://github.com/horinoh/UE4Vehicle/tree/master/Document/SteeringWheel)
 -->

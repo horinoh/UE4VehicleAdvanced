@@ -13,5 +13,11 @@
 				"PhysXVehicles"
 			]
 		}
+	],
+	"Plugins": [
+		{
+			"Name": "RawInput",
+			"Enabled": true
+		}
 	]
 }
